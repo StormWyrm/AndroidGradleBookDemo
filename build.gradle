@@ -1,0 +1,16 @@
+group 'com.qingfeng'
+version '1.0-SNAPSHOT'
+
+buildscript{
+    repositories{
+        jcenter()
+    }
+    dependencies{
+
+    }
+}
+allprojects {
+    repositories{
+        jcenter()
+    }
+}
