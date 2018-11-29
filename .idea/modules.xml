@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidGradleBookDemo.iml" filepath="$PROJECT_DIR$/AndroidGradleBookDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter02/example04/chapter02-example04.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter02/example04/chapter02-example04.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter01/example01/example01.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter01/example01/example01.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter02/example02/example02.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter02/example02/example02.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter02/example03/example03.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter02/example03/example03.iml" />

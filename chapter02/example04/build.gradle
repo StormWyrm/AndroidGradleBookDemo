@@ -1,0 +1,144 @@
+//chapter02 Groovy基础
+
+//groovy中的闭包 相当于java中的lambda表达式
+//简单说 闭包就是一个匿名的代码块，可以接收参数，返回值并分配变量
+
+//闭包写法 在groovy中每一个闭包都是Closure对象
+Closure closure1 = { println 'hahaa' }//执行一句话
+
+Closure closure2 = { println it }//闭包有默认参数it，且不用申明
+
+Closure closure3 = { name -> print name }//自定义参数名
+
+Closure closure4 = { String x, int y ->
+    println "key is $x,value is $y"
+}
+
+//调用闭包 使用闭包closure() 或者 closure.call()
+task ex4Task01 << {
+    closure1()
+    closure1.call()
+
+    closure2 'haha'
+    closure2.call('hahha')
+
+    closure3 1
+    closure3.call(1)
+
+    closure4 "Key", 1
+    closure4.call("key", 1)
+}
+
+//理解闭包内this，owner，delegate对象
+
+Closure closure5 = {
+    //没有在任何类中的闭包
+    println "closure5 this = $this"
+    println "closure5 owner = $owner"
+    println "closure5 delegate = $delegate"
+    println("--------------")
+}
+
+class MyOutClass {
+    //外部类的闭包
+    Closure closure6 = {
+    }
+    class MyInnerClass {
+        //内部类的闭包
+        Closure closure7 = {
+            //闭包中定义的闭包
+            Closure closure8 = {
+            }
+            printfMsg("closure7", closure7)
+            printfMsg("closure8", closure8)
+
+        }
+
+
+    }
+
+    private void printfMsg(String flag, Closure closure) {
+        def thisObject = closure.getThisObject()
+        def ownerObject = closure.getOwner()
+        def delegate = closure.getDelegate()
+        println("${flag} this: ${thisObject.toString()}")
+        println("${flag} owner: ${ownerObject.toString()}")
+        println("${flag} delegate: ${delegate.toString()}")
+        println("--------------")
+    }
+
+    void printMsg() {
+        printfMsg("closure6", closure6)
+        new MyInnerClass().closure7()
+    }
+}
+
+/*
+closure5 this = project ':example04'
+closure5 owner = project ':example04'
+closure5 delegate = project ':example04'
+--------------
+closure6 this: MyOutClass@6aaf32e8
+closure6 owner: MyOutClass@6aaf32e8
+closure6 delegate: MyOutClass@6aaf32e8
+--------------
+closure7 this: MyOutClass$MyInnerClass@5a77ccba
+closure7 owner: MyOutClass$MyInnerClass@5a77ccba
+closure7 delegate: MyOutClass$MyInnerClass@5a77ccba
+--------------
+closure8 this: MyOutClass$MyInnerClass@5a77ccba
+closure8 owner: MyOutClass$MyInnerClass$_closure1@326631f7
+closure8 delegate: MyOutClass$MyInnerClass$_closure1@326631f7
+--------------
+结论：
+this:对应于定义闭包的那个类
+owner:对应于定义与闭包的那个类或闭包 ，在闭包中定义则对应闭包 否者 和this相同
+delegate:默认和owner一致 或者 自定义delegate相同
+*/
+task ex4Task02 << {
+    closure5.call()
+    new MyOutClass().printMsg()
+
+}
+
+
+//指定闭包的委托对象
+class Main{
+    class Person {
+        String name
+        int age
+
+        void eat(String food) {
+            println("你喂的${food}真难吃")
+        }
+
+        @Override
+        String toString() {
+            return "Person{" +
+                    "name='" + name + '\'' +
+                    ", age=" + age +
+                    '}'
+        }
+    }
+
+    def cc = {
+        name = "hanmeimei"
+        age = 26
+        eat("油条")
+        eat "油条"
+    }
+    void printMsg(){
+        Main main = new Main()
+        Person person = new Person(name: "lilei", age: 14)
+        println person.toString()
+
+        main.cc.delegate = person
+        main.cc.call()
+        println person.toString()
+
+    }
+}
+
+task ex4Task03 << {
+    new Main().printMsg()
+}
