@@ -4,5 +4,11 @@ rootProject.name = 'AndroidGradleBookDemo'
 include ':example01'
 project(':example01').projectDir = new File(rootDir,'chapter01/example01')
 
+include ':example02'
+project(':example02').projectDir = new File(rootDir,'chapter02/example02')
+
+include ':example03'
+project(':example03').projectDir = new File(rootDir,'chapter02/example03')
+
 include ':example52'
 project(':example52').projectDir = new File(rootDir,'chapter05/example52')

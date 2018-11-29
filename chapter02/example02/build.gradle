@@ -1,0 +1,65 @@
+//chapter02 Groovy基础
+
+//1. 字符串
+
+// 不同于java groovy中的字符串可以用单引号或双引号来表示
+task ex02Task01 <<{
+    def str1 = '单引号'
+    def str2 = "双引号"
+
+    println '单引号定义的字符串：'+str1.getClass().name
+    println '双引号定义的字符串：'+str2.getClass().name
+}
+
+//单引号里面的所有东西都是字符串，没有进行运算的能力
+task ex02Task02 <<{
+    def name  = "张三"
+
+    println '单引号引用的变量计算：${name}'
+    println "双引号引用的变量计算：${name}"
+}
+
+//2.集合
+
+//定义一个集合
+task ex02Task03 <<{
+    def intList  = [1,2,3,4]
+
+    println intList.getClass().name
+}
+
+//访问集合 可以直接通过下标来访问
+task ex02Task04 <<{
+    def intList  = [1,2,3,4]
+
+    println intList[0]//访问一个元素
+    println intList[1]
+    println intList[-1]//访问倒数第一个元素
+    println intList[-2]
+}
+
+//通过each闭包来遍历集合 类似于kotlin 当闭包为最后时 放在括号外
+task ex02Task05 <<{
+    def intList  = [1,2,3,4]
+    intList.each {
+        println it
+    }
+}
+
+//定义一个Map
+task ex02Task06 <<{
+    def map  = ["width":100,"height":200]
+
+    //通过map[key] or map.key访问
+    println map["width"]
+    println map.height
+
+    //迭代一个元素时Map.Entry
+    map.each {
+        println it
+    }
+
+    map.each {
+        println "key:${it.key};value${it.value}"
+    }
+}

@@ -1,0 +1,66 @@
+//chapter02 Groovy基础
+
+//1. 方法
+
+// 不同于java groovy调用方法时可以省略括号
+task ex03Task01 << {
+    method01(1, 2)//标准的调用
+    method01 1, 2//可以省略括号
+}
+
+def method01(int a, int b) {
+    println a + b
+}
+
+//和kotlin相似 可以省略return
+task ex03Task02 << {
+    def one = method02 1, 2
+    def two = method02 3, 4
+
+    println "one：$one;two：$two"
+
+}
+
+def method02(int a, int b) {
+    if (a > b)
+        a
+    else
+        b
+}
+
+//可以将代码块传递 类似kotlin 中将 lambda表达式进行传递 groovy用Closure
+task ex03Task03 << {
+    def list = [0, 1, 2, 3, 4]
+
+    list.each({ println it })
+
+    //如果方法的最后一个时闭包 可以放在外面
+    list.each() {
+        println it
+    }
+    //如果方法只有一个参数 并且时闭包的话 可以省略括号
+    list.each {
+        println it
+    }
+}
+
+//2.java Bean
+
+//java中需要我们手动的创建setXXX/getXXX属性 groovy会为我们属性创建
+task ex03Task04 << {
+    Person person = new Person()
+    println "名字是：${person.name}"//会访问getName方法
+    person.name = "张三"//访问setName方法
+    println "名字是：${person.name}"
+
+    println "年龄是：${person.age}"//定义getAge()方法我们就可以访问age属性 但是不能修改
+}
+
+class Person {
+    private String name
+
+    int getAge(){
+        return 12
+    }
+}
+
