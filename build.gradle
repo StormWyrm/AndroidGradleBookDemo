@@ -1,16 +1,24 @@
 group 'com.qingfeng'
 version '1.0-SNAPSHOT'
-
-buildscript{
-    repositories{
+//配置引入的三方插件
+buildscript {
+    repositories {
         jcenter()
+        google()
     }
-    dependencies{
-
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.3'//android gradle plugin
     }
 }
+//对包括根项目的所有项目进行配置
 allprojects {
-    repositories{
+//    apply plugin: 'java'
+    repositories {
         jcenter()
+        google()
     }
+}
+//仅仅对子项目进行配置
+subprojects {
+//    apply plugin: 'java'
 }

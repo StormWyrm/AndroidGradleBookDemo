@@ -1,0 +1,21 @@
+apply plugin: 'java'//应用java插件
+
+//设置java项目的代码文件夹
+sourceSets {
+    main{
+        java {
+            srcDir 'src/main/java'
+        }
+        resources {
+            srcDir 'src/main/res'
+        }
+    }
+    test{
+        java {
+            srcDir 'src/test/java'
+        }
+        resources {
+            srcDir 'src/test/res'
+        }
+    }
+}

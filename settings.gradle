@@ -1,2 +1,8 @@
 rootProject.name = 'AndroidGradleBookDemo'
+//用来配置子项目
 
+include ':example01'
+project(':example01').projectDir = new File(rootDir,'chapter01/example01')
+
+include ':example52'
+project(':example52').projectDir = new File(rootDir,'chapter05/example52')
