@@ -1,0 +1,43 @@
+//创建任务
+
+//通过project的Task创建任务
+task ex06Task01 {
+    doFirst {
+        println 'ex06Task01:Dofirst'
+    }
+    doLast {
+        println 'ex06Task01:DoLast'
+    }
+}
+
+
+//通过tasks.create来创建任务
+tasks.create("ex06Task02") {
+    doFirst {
+        println 'ex06Task02:Dofirst'
+    }
+    doLast {
+        println 'ex06Task02:DoLast'
+    }
+}
+
+
+//任务依赖
+
+//创建任务的时候 dependsOn指定依赖
+task ex06Task03(dependsOn : ex06Task02){
+    doFirst {
+        println 'ex06Task03:Dofirst'
+    }
+    doLast {
+        println 'ex06Task03:DoLast'
+    }
+}
+
+//依赖多个任务
+task ex06Task04{
+    dependsOn ex06Task01,ex06Task02
+    doLast {
+        println 'ex06Task04:DoLast'
+    }
+}

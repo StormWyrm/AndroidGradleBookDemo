@@ -1,3 +1,5 @@
+import com.sun.corba.se.spi.orbutil.closure.Closure
+
 //chapter02 闭包练习 模仿Android DSL定义闭包
 class Android {
     private int mCompileSdkVersion
