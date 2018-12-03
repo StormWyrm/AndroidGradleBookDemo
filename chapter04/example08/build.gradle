@@ -1,51 +1,10 @@
-//创建任务的多种方式
+//任务的分组和描述
+task("ex09Task01",group: BasePlugin.BUILD_GROUP,description: "分组信息")
 
-//1.通过project提供的task方法以及重载来创建任务
-
-//task(String name)来创建任务
-task ex07Task01
-
-//task(String name,Closure configureClosure)创建任务
-task ex07Task02 {
+task ex09Task02 {
+    doLast {
+        println "group:${ex09Task01.group},description:${ex09Task01.description}"
+    }
 
 }
-//task(String name,Map<?,String> args) 任务名字+task配置
-/*配置项：type:基于一个存在的Task创建,跟继承类似
-        overwrite:是否替换存在的Task,跟type配合使用
-        dependsOn:用于配置依赖
-        action:添加到任务中的一个action
-        description:用于配置任务的描述
-        group:
-        */
-task(ex07Task03, dependsOn: ex07Task01)
-
-//task(String name,Map<?,String> args,Closure configureClosure)创建任务
-task(ex07Task04, dependsOn: ex07Task01) {
-
-}
-
-//使用TaskContainer方法提供的crate方法 跟上面
-tasks.create("ex07Task05") {
-
-}
-
-
-//2.访问任务 创建任务的属性名就是任务名 可以通过任务名直接操作任务
-task ex07Task06
-ex07Task06.doLast{
-    println "ex07Task06.doLast"
-}
-
-//访问【"key"】方式访问 对应盗用getAt操作符
-tasks['ex07Task06'].doLast{
-    println "ex07Task06.doLast2"
-}
-
-//通过findByPath
-task ex07Task07{
-    println tasks.findByPath(":example08:ex07Task01")
-    println tasks.findByPath(":example08:ex07Task02")
-    println tasks.findByPath(":example08:ex07Task03")
-}
-
 
