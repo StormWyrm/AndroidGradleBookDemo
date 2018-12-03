@@ -1,0 +1,38 @@
+apply plugin: 'java'
+
+//自定义属性 通过ext属性实现
+
+//通过自定义一个Project属性
+ext.age = 18
+
+//同时定义多个属性
+ext {
+    phone = "17499994443"
+    address = "中国 黑龙江省 哈尔滨市"
+}
+
+task ex07Task01 << {
+    println "年龄是：${age}"
+    println "电话号码是：${phone}"
+    println "电话号码是：${address}"
+}
+
+//在SourceSets自定义属性
+sourceSets.all {
+    ext.resourcesDir = null
+}
+
+sourceSets {
+    main {
+        resourcesDir = "main/res"
+    }
+    test {
+        resourcesDir = "test/res"
+    }
+}
+
+task ex07Task02 << {
+   sourceSets.each {
+       println "${it.name}的resourceDir是 ${it.resourcesDir}"
+   }
+}
