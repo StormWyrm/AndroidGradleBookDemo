@@ -1,9 +1,9 @@
 //任务的分组和描述
-task("ex09Task01",group: BasePlugin.BUILD_GROUP,description: "分组信息")
+Task customTask = task("ex09Task01",group: BasePlugin.BUILD_GROUP,description: "分组信息")
 
 task ex09Task02 {
     doLast {
-        println "group:${ex09Task01.group},description:${ex09Task01.description}"
+        println "group:${customTask.group},description:${customTask.description}"
     }
 
 }

@@ -1,0 +1,54 @@
+//<<操作符和任务执行过程的分析
+
+//<<操作符的作用是Task上doLast方法的段标记形式 可以替代doLast
+//<<操作符对应的方法leftShift在task中和doLast一样
+//都是将闭包中的内容转换为一个Action添加到actions: List<ContextAwareTaskAction>集合中
+task ex10Task01 << {
+
+}
+
+//任务的执行分析 配置在task的doFirst和doLast如何执行 以及 执行顺序
+//自定义一个Task 执行task的执行的时候 顺序的执行actions list
+//@TaskAction默认会将action添加到集合中
+//doFirst会将action添加到集合首部
+//doLast回键action添加到集合尾部
+class CustomTask extends DefaultTask {
+    //任务本身要执行的方法
+    @TaskAction
+    def doSelf() {
+        println "Task自己本身在执行in doSelf"
+    }
+}
+Task myTask = task("ex10Task02", type: CustomTask)
+
+myTask.doFirst {
+    println "Task执行之前在执行in doFirst"
+}
+
+myTask.doLast {
+    println "Task执行之后在执行in doLast"
+}
+
+//任务排序
+task ex10Task03 << {
+    println "ex10Task03"
+}
+
+task ex10Task04 << {
+    println "ex10Task04"
+}
+
+ex10Task03.mustRunAfter ex10Task04
+
+//onlyif 闭包返回True的时候才执行
+
+ex10Task04.onlyIf {
+    if (projects.hasProperty("ex10Task04OnlyIf")) {
+        if (projects.property("ex10Task04OnlyIf").equals("0"))
+            return false
+        else
+            return true
+    } else {
+        return true
+    }
+}
