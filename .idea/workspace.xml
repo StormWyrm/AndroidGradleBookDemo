@@ -7,12 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30abc9b3-c0a1-4f44-9957-9c2d5396b86e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter03/example07/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/example08/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,6 +27,7 @@
     <ignored path="$PROJECT_DIR$/chapter02/example06/out/" />
     <ignored path="$PROJECT_DIR$/chapter03/example06/out/" />
     <ignored path="$PROJECT_DIR$/chapter03/example07/out/" />
+    <ignored path="$PROJECT_DIR$/chapter04/example08/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +76,9 @@
         <task path="$PROJECT_DIR$/chapter03/example07">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/chapter04/example08">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -84,18 +89,18 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="AndroidGradleBookDemo" type="f1a62948:ProjectNode" />
-                <item name=":example07" type="2d1252cf:ModuleNode" />
+                <item name=":example08" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="AndroidGradleBookDemo" type="f1a62948:ProjectNode" />
-                <item name=":example07" type="2d1252cf:ModuleNode" />
+                <item name=":example08" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="AndroidGradleBookDemo" type="f1a62948:ProjectNode" />
-                <item name=":example07" type="2d1252cf:ModuleNode" />
+                <item name=":example08" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="other" type="c8890929:TasksNode$1" />
               </path>
@@ -109,28 +114,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/chapter04/example08/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="316">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter03/example07/build.gradle">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-4.6-all/bcst21l2brirad8k2ben1letg/gradle-4.6/src/core-api/org/gradle/api/Project.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="435" selection-start-line="443" selection-start-column="21" selection-end-line="443" selection-end-column="25" />
+            <state relative-caret-position="210">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -205,6 +201,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":example07" />
                 <option name="path" value="$PROJECT_DIR$/chapter03/example07" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":example08" />
+                <option name="path" value="$PROJECT_DIR$/chapter04/example08" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":example52" />
@@ -350,14 +350,34 @@
                 <option name="name" value="ex07Task01" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="ex07Task02" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the components produced by root project 'AndroidGradleBookDemo'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="ex07Task03" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="ex07Task04" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="ex07Task05" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="ex07Task06" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the dependent components of components in root project 'AndroidGradleBookDemo'. [incubating]" />
@@ -778,62 +798,6 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/chapter02/example06">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':example06'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter02/example06" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':example06'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter02/example06" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':example06'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter02/example06" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':example06'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter02/example06" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':example06'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter02/example06" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':example06'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter02/example06" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter02/example06" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':example06'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter02/example06" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':example06'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter02/example06" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':example06'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter02/example06" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/chapter03/example06">
           <value>
             <list>
@@ -912,6 +876,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter03/example07" />
                 <option name="name" value="ex07Task01" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter03/example07" />
+                <option name="name" value="ex07Task02" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the components produced by project ':example07'. [incubating]" />
@@ -1037,6 +1005,86 @@
                 <option name="description" value="Displays the properties of project ':example07'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter03/example07" />
                 <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/chapter04/example08">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="ex07Task01" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="ex07Task02" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':example08'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="ex07Task03" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="ex07Task04" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':example08'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="ex07Task05" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="ex07Task06" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':example08'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':example08'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':example08'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':example08'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':example08'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':example08'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':example08'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter04/example08" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -1251,6 +1299,13 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
+                  <entry key="$PROJECT_DIR$/chapter04/example08">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/chapter04/example08" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
                   <entry key="$PROJECT_DIR$/chapter05/example52">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
@@ -1445,11 +1500,12 @@
         <option value="$PROJECT_DIR$/chapter02/example02/build.gradle" />
         <option value="$PROJECT_DIR$/chapter02/example03/build.gradle" />
         <option value="$PROJECT_DIR$/chapter02/example04/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/chapter02/example05/build.gradle" />
         <option value="$PROJECT_DIR$/chapter03/example06/build.gradle" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/chapter03/example07/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/chapter04/example08/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -1476,22 +1532,6 @@
               <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter03" type="462c0819:PsiDirectoryNode" />
-              <item name="example07" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1517,7 +1557,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="fa&#9;PSI&#9;JAVA://com.sun.prism.impl.BaseMesh.FaceMembers" />
     <property name="android.sdk.path" value="D:/sdk" />
-    <property name="last_opened_file_path" value="D:/AndroidStudioProjects" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/qijuvideo2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -1525,6 +1565,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AndroidStudioFrame\AndroidGradleBookDemo" />
       <recent name="D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter03" />
       <recent name="D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter02" />
     </key>
@@ -1541,7 +1582,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.AndroidGradleBookDemo:chapter03:example07 [ex07Task01]">
+  <component name="RunManager" selected="Gradle.AndroidGradleBookDemo:chapter03:example07 [ex07Task02]">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -1564,23 +1605,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="AndroidGradleBookDemo:chapter03:example06 [ex06Task01]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter03/example06" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="ex06Task01" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
     </configuration>
     <configuration name="AndroidGradleBookDemo:chapter03:example06 [ex06Task02]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -1650,6 +1674,23 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
+    <configuration name="AndroidGradleBookDemo:chapter03:example07 [ex07Task02]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter03/example07" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="ex07Task02" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -1706,19 +1747,19 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.AndroidGradleBookDemo:chapter03:example06 [ex06Task01]" />
       <item itemvalue="Gradle.AndroidGradleBookDemo:chapter03:example06 [ex06Task02]" />
       <item itemvalue="Gradle.AndroidGradleBookDemo:chapter03:example06 [ex06Task03]" />
       <item itemvalue="Gradle.AndroidGradleBookDemo:chapter03:example06 [ex06Task04]" />
       <item itemvalue="Gradle.AndroidGradleBookDemo:chapter03:example07 [ex07Task01]" />
+      <item itemvalue="Gradle.AndroidGradleBookDemo:chapter03:example07 [ex07Task02]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AndroidGradleBookDemo:chapter03:example07 [ex07Task02]" />
         <item itemvalue="Gradle.AndroidGradleBookDemo:chapter03:example07 [ex07Task01]" />
         <item itemvalue="Gradle.AndroidGradleBookDemo:chapter03:example06 [ex06Task04]" />
         <item itemvalue="Gradle.AndroidGradleBookDemo:chapter03:example06 [ex06Task03]" />
         <item itemvalue="Gradle.AndroidGradleBookDemo:chapter03:example06 [ex06Task02]" />
-        <item itemvalue="Gradle.AndroidGradleBookDemo:chapter03:example06 [ex06Task01]" />
       </list>
     </recent_temporary>
   </component>
@@ -1754,18 +1795,18 @@
       <window_info id="Build Variants" order="1" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.47439915" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.5308255" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.41170323" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.3552769" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.5308255" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.4597701" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20682302" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17004265" />
       <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.3908046" />
-      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.22761194" />
+      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.18070363" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info id="Captures" order="6" weight="0.25" />
@@ -1811,6 +1852,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/chapter04/example08/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/example08/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/example08/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -1954,13 +2016,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="73" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter01/example01/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2038,31 +2093,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/chapter03/example07/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="72" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="72" />
+        <state relative-caret-position="441">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="105">
+          <caret line="5" column="77" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-4.6-all/bcst21l2brirad8k2ben1letg/gradle-4.6/src/core-api/org/gradle/api/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="435" selection-start-line="443" selection-start-column="21" selection-end-line="443" selection-end-column="25" />
+        <state relative-caret-position="168">
+          <caret line="485" column="36" selection-start-line="485" selection-start-column="36" selection-end-line="485" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/example07/build.gradle">
+    <entry file="file://$PROJECT_DIR$/chapter04/example08/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        <state relative-caret-position="316">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
