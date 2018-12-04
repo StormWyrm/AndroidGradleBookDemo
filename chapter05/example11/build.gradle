@@ -1,0 +1,46 @@
+//gradle 插件
+//gradle仅仅提供了基本的概念和核心的控制逻辑，具体的真实的使用逻辑可以通过插件拓展的方式来实现
+//gradle插件的作用：
+//1. 添加任务到项目中，帮助我们完成一些功能：编译/打包/测试等
+//2. 能够添加依赖到我们的项目中
+//3. 可以向项目中现有的对象类型添加新的属性/方法，帮助我们进行配置优化构建 比如说android{}就是Android
+//   Gralde对Project对象添加的一个扩展
+//4. 可以对项目进行一些约定，比如应用java plugin插件后，就约定src/main/java是源码的位置
+
+//1. 应用二进制插件即实现了org.gradle.api.Plugin接口的插件
+// 其中'java'是java插件的plugin id,是唯一的
+// 对应的类型 org.gradle.api.plugins.JavaPlugin
+
+apply plugin:'java'
+
+//使用全名
+apply plugin:org.gradle.api.plugins.JavaPlugin
+
+//因为org.gradle.api.plugins包是默认导入的，可以省略
+apply plugin:JavaPlugin
+
+
+//2.应用脚本插件，将另一个脚本引入进来
+apply from:'version.gradle'
+
+task ex11Task01 <<{
+    println "App版本是：${versionName},版本号是：${versionCode}"
+}
+
+//3.应用apply的其他重载方法
+
+//apply(Closure closure)
+apply {
+    plugin 'java'
+}
+
+apply(new Action<ObjectConfigurationAction>() {
+    @Override
+    void execute(ObjectConfigurationAction objectConfigurationAction) {
+        objectConfigurationAction.plugin('java')
+    }
+})
+
+
+
+
