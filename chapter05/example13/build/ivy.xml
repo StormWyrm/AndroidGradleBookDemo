@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-  <info organisation="com.github.gradle.Ex13Plugin01" module="example13" revision="1.0.0" status="integration" publication="20181213152808"/>
+  <info organisation="AndroidGradleBookDemo" module="example13" revision="unspecified" status="integration" publication="20181213160024"/>
   <configurations>
     <conf name="annotationProcessor" visibility="private"/>
     <conf name="apiElements" visibility="private" extends="runtime"/>

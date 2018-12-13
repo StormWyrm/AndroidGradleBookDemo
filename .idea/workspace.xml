@@ -7,14 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30abc9b3-c0a1-4f44-9957-9c2d5396b86e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/chapter05/example14/build.gradle" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/chapter05/example13/build.gradle" afterPath="$PROJECT_DIR$/chapter05/example13/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change beforePath="$PROJECT_DIR$/chapter05/example13/build/ivy.xml" afterPath="$PROJECT_DIR$/chapter05/example13/build/ivy.xml" />
+      <change beforePath="$PROJECT_DIR$/chapter05/example13/build/poms/pom-default.xml" afterPath="$PROJECT_DIR$/chapter05/example13/build/poms/pom-default.xml" />
+      <change beforePath="$PROJECT_DIR$/chapter05/example13/build/resources/main/META-INF/gradle-plugins/com.github.gradle.Ex13Plugin01.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter05/example13/src/main/resources/META-INF/gradle-plugins/com.github.gradle.Ex13Plugin01.properties" afterPath="$PROJECT_DIR$/chapter05/example13/src/main/resources/META-INF/gradle-plugins/com.github.StormWyrm.Ex13Plugin01.properties" />
+      <change beforePath="$PROJECT_DIR$/chapter05/example14/build.gradle" afterPath="$PROJECT_DIR$/chapter05/example14/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/chapter05/repositories/com/github/gradle/Ex13Plugin01/example13/1.0.0/example13-1.0.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter05/repositories/com/github/gradle/Ex13Plugin01/example13/1.0.0/example13-1.0.0.jar.md5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter05/repositories/com/github/gradle/Ex13Plugin01/example13/1.0.0/example13-1.0.0.jar.sha1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter05/repositories/com/github/gradle/Ex13Plugin01/example13/1.0.0/example13-1.0.0.pom" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter05/repositories/com/github/gradle/Ex13Plugin01/example13/1.0.0/example13-1.0.0.pom.md5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter05/repositories/com/github/gradle/Ex13Plugin01/example13/1.0.0/example13-1.0.0.pom.sha1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter05/repositories/com/github/gradle/Ex13Plugin01/example13/maven-metadata.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter05/repositories/com/github/gradle/Ex13Plugin01/example13/maven-metadata.xml.md5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/chapter05/repositories/com/github/gradle/Ex13Plugin01/example13/maven-metadata.xml.sha1" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/chapter05/example52/out/" />
@@ -137,6 +152,9 @@
         <task path="$PROJECT_DIR$/chapter05">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/chapter05/example14">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -165,8 +183,13 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="AndroidGradleBookDemo" type="f1a62948:ProjectNode" />
-                <item name=":example13" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name=":example52" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AndroidGradleBookDemo" type="f1a62948:ProjectNode" />
+                <item name=":example52" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -180,8 +203,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter05/example14/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="294">
+              <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -534,6 +557,10 @@
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="ex13Task01" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles the test Groovy source." />
@@ -1765,6 +1792,10 @@
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter05/example14" />
+                <option name="name" value="ex13Task01" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the configuration model of project ':example14'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/chapter05/example14" />
                 <option name="name" value="model" />
@@ -1918,7 +1949,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="1423878277" />
-        <entry key="$PROJECT_DIR$" value="29328589423082" />
+        <entry key="$PROJECT_DIR$" value="30873296369933" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3793574730" />
         <entry key="$PROJECT_DIR$/chapter01/example01/build.gradle" value="213522037" />
         <entry key="$PROJECT_DIR$/chapter02/example02/build.gradle" value="2079533591" />
@@ -1934,7 +1965,8 @@
         <entry key="$PROJECT_DIR$/chapter05/example11/build.gradle" value="2294034884" />
         <entry key="$PROJECT_DIR$/chapter05/example11/version.gradle" value="756847352" />
         <entry key="$PROJECT_DIR$/chapter05/example12/build.gradle" value="2951951479" />
-        <entry key="$PROJECT_DIR$/chapter05/example13/build.gradle" value="3381593989" />
+        <entry key="$PROJECT_DIR$/chapter05/example13/build.gradle" value="1812265400" />
+        <entry key="$PROJECT_DIR$/chapter05/example14/build.gradle" value="1080494023" />
         <entry key="$PROJECT_DIR$/chapter05/example52/build.gradle" value="3860128559" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1389967582" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2034044007" />
@@ -4387,6 +4419,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/2.2.11/2df047d8c187a62f2177bf6013f1f9786cdfc8a2/txw2-2.2.11.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/2.21/5d42dda44aa68ff87756e93ae0042cd66d2daa78/istack-commons-runtime-2.21-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/2.21/c969d8f15c467f0ef7d7b04889afbe7b5d48e22f/istack-commons-runtime-2.21.jar" />
+                            <option value="$PROJECT_DIR$/chapter05/repositories/com/github/StormWyrm/Ex13Plugin01/1.0.0/Ex13Plugin01-1.0.0.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/chapter05/example14" />
@@ -4962,12 +4995,24 @@
               <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="example13" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
               <item name="example14" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="example52" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
               <item name="repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -4992,7 +5037,7 @@
               <item name="repositories" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="StormWyrm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -5001,19 +5046,8 @@
               <item name="repositories" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="StormWyrm" type="462c0819:PsiDirectoryNode" />
               <item name="Ex13Plugin01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="Ex13Plugin01" type="462c0819:PsiDirectoryNode" />
-              <item name="example13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -5296,14 +5330,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47439915" sideWeight="0.50053304" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33367983" sideWeight="0.49946696" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33367983" sideWeight="0.49946696" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5308255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45841995" sideWeight="0.49946696" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2630458" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2630458" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32640332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28753993" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22364217" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -5351,18 +5385,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter02/example03/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/jdk/javafx-src.zip!/com/sun/prism/impl/BaseMesh.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -5612,26 +5639,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter05/example13/src/main/groovy/com.github.StormWyrm/Ex13Plugin01.java" />
     <entry file="file://$PROJECT_DIR$/chapter05/example13/src/main/resources/META-INF/gradle-plugins/com.github.StormWyrm.Ex13Plugin01" />
-    <entry file="file://$PROJECT_DIR$/chapter05/example13/src/main/resources/META-INF/gradle-plugins/com.github.gradle.Ex13Plugin01.properties" />
-    <entry file="file://$PROJECT_DIR$/chapter05/example13/src/main/groovy/com.github.StormWyrm/Ex13Plugin01.groovy" />
-    <entry file="file://$PROJECT_DIR$/chapter05/example12/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter05/example11/version.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/example11/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -5643,33 +5654,74 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter05/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/chapter05/example11/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="235">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="189">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/example12/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/example13/src/main/resources/META-INF/gradle-plugins/com.github.StormWyrm.Ex13Plugin01.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="54" lean-forward="true" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/example13/src/main/groovy/com.github.StormWyrm/Ex13Plugin01.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter05/example13/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="546">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/repositories/com/github/StormWyrm/Ex13Plugin01/maven-metadata.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter05/example14/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="294">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding />
         </state>
       </provider>
