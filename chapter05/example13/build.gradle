@@ -1,13 +1,31 @@
-//自定义插件
-class Ex12CustomPlugin implements Plugin<Project>{
-    void apply(Project project){
-        project.task("E12Task01") <<{
-            println "这是一个通过自定义插件方式创建的任务"
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies{
+    //gradle sdk
+    compile gradleApi()
+    //groovy sdk
+    compile localGroovy()
+}
+
+group='com.github.gradle.Ex13Plugin01'
+version='1.0.0'
+uploadArchives{
+    repositories {
+        mavenDeployer{
+            //提交到远程服务器
+//            repository(url:'http://www.xxx.com/repos'){
+//                authentication(userName:'admin',password:'admin')
+//            }
+            //提交到本地  将插件jar包放置在本地
+            repository(url : uri('D:/repositories'))
         }
     }
 }
-
-apply plugin:Ex12CustomPlugin
 
 
 

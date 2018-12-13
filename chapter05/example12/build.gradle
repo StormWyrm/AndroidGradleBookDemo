@@ -1,8 +1,8 @@
 //自定义插件
 class Ex12CustomPlugin implements Plugin<Project>{
     void apply(Project project){
-        project.task("E12Task01") <<{
-            println "这是一个通过自定义插件方式创建的任务"
+        project.task("ex12Task01") <<{
+            println "这是一个通过在build脚本中自定义插件方式创建的任务"
         }
     }
 }
