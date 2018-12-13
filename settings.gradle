@@ -43,7 +43,7 @@ project(':example13').projectDir = new File(rootDir,'chapter05/example13')
 include ':example14'
 project(':example14').projectDir = new File(rootDir,'chapter05/example14')
 
-include ':example52'
-project(':example52').projectDir = new File(rootDir,'chapter05/example52')
+include ':example15'
+project(':example15').projectDir = new File(rootDir,'chapter06/example15')
 
 

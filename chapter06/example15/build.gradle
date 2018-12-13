@@ -1,0 +1,26 @@
+apply plugin: 'java'//应用java插件
+
+//java插件中默认有两个源码集合
+// src/main/java放置java源码；src/main/resources放置中放置资源
+// src/test/java放置单元测试的源码；src/main/resources放置单元测试中要使用的资源
+
+// 可以自定义源码集合 这样我们就可以在src/vip/java 和src/vip/test中存放vip相关的资源了
+sourceSets {
+    vip{
+
+    }
+}
+
+//特殊情况下我们修改java源码存放的默认位置，比如说我们代码是从Eclipse中迁移过来的
+//资源的目录结构还是src/java 和 src/resource,这时候我们就可以自定义资源的目录
+//然后编译打包就不会出现问题
+sourceSets {
+    main{
+        java {
+            srcDir 'src/java'
+        }
+        resources {
+            srcDir 'src/resources'
+        }
+    }
+}

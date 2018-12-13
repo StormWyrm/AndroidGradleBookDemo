@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter02/example04/chapter02-example04.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter02/example04/chapter02-example04.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter03/example06/chapter03-example06.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter03/example06/chapter03-example06.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter05/example14/chapter05-example14.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter05/example14/chapter05-example14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter06/example15/chapter06-example15.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter06/example15/chapter06-example15.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter01/example01/example01.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter01/example01/example01.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter02/example02/example02.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter02/example02/example02.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter02/example03/example03.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter02/example03/example03.iml" />
@@ -17,7 +18,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter05/example11/example11.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter05/example11/example11.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter05/example12/example12.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter05/example12/example12.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter05/example13/example13.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter05/example13/example13.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter05/example52/example52.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter05/example52/example52.iml" />
     </modules>
   </component>
 </project>
