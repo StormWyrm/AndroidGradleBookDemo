@@ -22,7 +22,7 @@ uploadArchives{
 //                authentication(userName:'admin',password:'admin')
 //            }
             //提交到本地  将插件jar包放置在本地
-            repository(url : uri('D:/repositories'))
+            repository(url : uri('../repositories'))
         }
     }
 }

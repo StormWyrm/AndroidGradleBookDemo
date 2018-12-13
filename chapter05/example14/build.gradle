@@ -1,0 +1,15 @@
+//使用发布到远程maven库中的gradle插件 在这里应用的是Example13中定义的插件
+buildscript {
+    repositories {
+        //三方插件的maven仓库，这里是我们本地的maven仓库
+        maven {
+            url uri('../repositories')
+        }
+    }
+    dependencies{
+        //三方gradle插件的依赖
+        classpath 'com.github.gradle.Ex13Plugin01:example13:1.0.0'
+    }
+}
+//应用三方Gradle插件 这样我们就可以使用在三方插件中定义的属性和任务
+apply plugin:'com.github.gradle.Ex13Plugin01'
