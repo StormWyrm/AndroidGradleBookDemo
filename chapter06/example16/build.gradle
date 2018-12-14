@@ -1,0 +1,56 @@
+apply plugin: 'java'//应用java插件
+//使用第三方依赖库
+
+sourceSets {
+    vip {
+
+    }
+}
+
+//配置Maven中心库，告诉Gradle可以在Maven中心库搜索我们依赖的三方库
+repositories {
+    mavenCentral()
+    jcenter()
+    google()
+}
+
+dependencies {
+
+    //告诉gradle 我们需要依赖的库的 组织/库名字/版本 这是全写的方式就是Maven的
+    //GAV(groupid,artifactid,versioin)
+    compile group: 'com.squareup.okhttp3', name: 'okhttp', version: '3.0.1'
+
+    //省略group/artifactid/verion之间用 ：连接 代表简写
+    compile 'com.android.support:design:25.3.0'
+
+    //compile代表的是编译时依赖，还有其他类型的依赖比如单元测试依赖testCompile
+    //而testCompile依赖的包就不会被打包到发布的产品中
+    //gradle提供的依赖配置有
+    /**
+     * 1. compile：编译时依赖 在compileJava任务使用
+     * 2. testCompile: 编译测试用例时候的依赖 被compileTestJava任务使用
+     * 3. runtime: 运行时依赖
+     * 4. testRuntime:测试用例运行时依赖
+     * 5. archives: 发布构建时候的依赖  在uploadArchives任务使用
+     */
+
+    //除此之外 java插件可以为不用的源码集合指定编译和运行时依赖
+    //如上，我们增加一个vip源码集合，就可以针对 test main vip
+    //在编译和运行时指定不同的依赖
+    //格式为sourceSetCompile/sourceSetRuntime
+    vipCompile 'org.xutils:xutils:3.5.0'
+
+    //以上都是依赖的外部模块，还可以依赖项目依赖
+    compile project(':example15')
+
+    //依赖jar包
+    compile jar('libs/example11.jar')
+
+    //依赖文件，一般是一个jar包
+    compile file('libs/example15.jar')
+    compile files('libs/example15.jar', 'libs/example13.jar')
+
+    //依赖默认文件夹某个类型的文件,这样lib文件夹中的所有jar包都会被依赖
+    compile fileTree(dir: 'libs',includes: '*.jar')
+}
+
