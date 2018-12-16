@@ -10,4 +10,8 @@ public final class BuildConfig {
   public static final String FLAVOR = "baidu";
   public static final int VERSION_CODE = 1;
   public static final String VERSION_NAME = "1.0.0";
+  // Fields from build type: debug
+  public static final Boolean isDebug = true;
+  // Fields from product flavor: baidu
+  public static final String Web_url = "www.baidu.com";
 }

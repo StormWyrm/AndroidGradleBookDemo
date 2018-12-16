@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"1.0.0","enabled":true,"outputFile":"Example19_xiaomiDebug_1.0.0_20181216.apk","fullName":"xiaomiDebug","baseName":"xiaomi-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.github.StormWyrm.AndroidGradleDemo2","split":"","minSdkVersion":"19"}}]

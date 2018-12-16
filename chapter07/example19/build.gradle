@@ -10,10 +10,12 @@ android {
     productFlavors {
         baidu{
             manifestPlaceholders = ["UMENG_CHANNEL":"baidu"]
-
+            buildConfigField 'String',"Web_url",'"www.baidu.com"'
         }
         xiaomi{
             manifestPlaceholders = ["UMENG_CHANNEL":"xiaomi"]
+            buildConfigField 'String',"Web_url",'"www.xiaomi.com"'
+
         }
         //如果我们的Product很多 可以通一配置
         productFlavors.all{flavor->
@@ -34,11 +36,13 @@ android {
         release {
             minifyEnabled false
             shrinkResources false
+            buildConfigField 'Boolean',"isDebug",'false'
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         debug {
             minifyEnabled false
             shrinkResources false
+            buildConfigField 'Boolean',"isDebug",'true'
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
