@@ -9,13 +9,14 @@ android {
     flavorDimensions "default"
     productFlavors {
         baidu{
-            manifestPlaceholders = ["UMENG_CHANNEL":"baidu"]
-            buildConfigField 'String',"Web_url",'"www.baidu.com"'
+            manifestPlaceholders = ["UMENG_CHANNEL":"baidu"]//动态替换Manifest占位符
+            buildConfigField 'String',"Web_url",'"www.baidu.com"'//自定义buildConfig
+            resValue 'string',"channel_des","this is baidu channel apk"//动态添加自定义资源 支持string/int/color等类型
         }
         xiaomi{
             manifestPlaceholders = ["UMENG_CHANNEL":"xiaomi"]
             buildConfigField 'String',"Web_url",'"www.xiaomi.com"'
-
+            resValue 'tring',"channel_des","this is xiaomi channel apk"
         }
         //如果我们的Product很多 可以通一配置
         productFlavors.all{flavor->

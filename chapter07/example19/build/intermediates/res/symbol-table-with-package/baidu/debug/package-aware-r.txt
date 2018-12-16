@@ -1335,6 +1335,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string channel_des
 string character_counter_content_description
 string character_counter_pattern
 string fab_transformation_scrim_behavior
