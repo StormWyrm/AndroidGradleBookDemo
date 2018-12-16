@@ -33,6 +33,8 @@ android {
         versionCode 1
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
+    //编译类型配置
     buildTypes {
         release {
             minifyEnabled false
@@ -46,6 +48,12 @@ android {
             buildConfigField 'Boolean',"isDebug",'true'
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+
+    //java编译选项
+    compileOptions{
+        sourceCompatibility = JavaVersion.VERSION_1_8 //配置java代码的编译版本
+        targetCompatibility = JavaVersion.VERSION_1_8//配置生成java字节码的版本
     }
 
     applicationVariants.all { variant ->
