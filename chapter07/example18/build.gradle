@@ -1,0 +1,51 @@
+apply plugin: "com.android.application"
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    //配置多个productPlavor选项
+    productFlavors {
+        baidu {
+        }
+        xiaomi {
+        }
+    }
+
+    //默认的ProductFlavor配置
+    defaultConfig {
+        applicationId 'com.github.StormWyrm.AndroidGradleDemo'
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionName '1.0.0'
+        versionCode 1
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('./keystore.jks')
+            keyAlias 'key0'
+            keyPassword '123456'
+            storePassword '123456'
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+        }
+        debug {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+        }
+    }
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+dependencies {
+}
