@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml:4:11-59
+		INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml:2:1-5:12
+		INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml:3:11-57
+	android:versionCode
+		INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml:2:1-5:12
+		INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example18\src\main\AndroidManifest.xml

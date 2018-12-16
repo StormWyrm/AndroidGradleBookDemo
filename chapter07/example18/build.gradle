@@ -6,10 +6,6 @@ android {
 
     //配置多个productPlavor选项
     productFlavors {
-        baidu {
-        }
-        xiaomi {
-        }
     }
 
     //默认的ProductFlavor配置
@@ -34,7 +30,6 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            shrinkResources true
             signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'),'proguard-rules.pro'
         }
