@@ -12,10 +12,21 @@ dependencies{
     compile localGroovy()
 }
 
+group "com.github.StromWyrm"
+version "1.0.0"
+
 uploadArchives{
     repositories {
+        //发布到当前文件夹的repositories文件夹
+        flatDir {
+            name 'libs'
+            dirs '../libs'
+        }
+
+        mavenLocal()//存放在本地maven库 用户目录.m2/repository文件夹下
+
         mavenDeployer{
-            //提交到远程服务器
+            //提交到远程服务器maven私服
 //            repository(url:'http://www.xxx.com/repos'){
 //                authentication(userName:'admin',password:'admin')
 //            }

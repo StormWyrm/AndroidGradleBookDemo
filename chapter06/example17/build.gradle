@@ -1,0 +1,22 @@
+apply plugin:'java'
+//java插件sourceSet的概念,java插件为我们提供了sourceSet属性来管理java代码以及资源的概念
+//是java源代码文件和资源文件的集合，我们可以针对不同的业务和应用对我们的代码进行分组
+//用于主要业务main源代码集合和单元测试的test源代码集合
+
+//java插件在Project中为我们提供了sourceSets属性以及一个sourceSets{}闭包来访问和配置源代码集合
+sourceSets {
+    main{
+        //在这里我们对main SourceSet进行配置
+    }
+    //新增一个源代码集合
+    vip{
+
+    }
+}
+
+task ex17Task01{
+    sourceSets.all {
+        println name
+    }
+}
+

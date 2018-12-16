@@ -43,14 +43,11 @@ dependencies {
     //以上都是依赖的外部模块，还可以依赖项目依赖
     compile project(':example15')
 
-    //依赖jar包
-    compile jar('libs/example11.jar')
 
     //依赖文件，一般是一个jar包
-    compile file('libs/example15.jar')
-    compile files('libs/example15.jar', 'libs/example13.jar')
+    compile files('libs/example13.jar', 'libs/example15.jar')
 
     //依赖默认文件夹某个类型的文件,这样lib文件夹中的所有jar包都会被依赖
-    compile fileTree(dir: 'libs',includes: '*.jar')
+    compile fileTree(dir: 'libs',includes: ['*.jar'])
 }
 
