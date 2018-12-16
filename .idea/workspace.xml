@@ -14,38 +14,8 @@
     <list default="true" id="30abc9b3-c0a1-4f44-9957-9c2d5396b86e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter07/example19/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/asynclayoutinflater/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/asynclayoutinflater/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/compat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/compat/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/coordinatorlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/coordinatorlayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/coreui/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/coreui/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/coreutils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/coreutils/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/customview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/customview/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/design/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/design/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/drawerlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/drawerlayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/fragment/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/fragment/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/graphics/drawable/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/graphics/drawable/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/loader/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/loader/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/slidingpanelayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/slidingpanelayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/swiperefreshlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/swiperefreshlayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/transition/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/transition/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/v7/appcompat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/v7/appcompat/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/v7/recyclerview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/v7/recyclerview/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/v7/viewpager/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/android/support/v7/viewpager/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/com/github/StormWyrm/AndroidGradleDemo/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/generated/not_namespaced_r_class_sources/baiduDebug/processBaiduDebugResources/r/com/github/StormWyrm/AndroidGradleDemo/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/intermediates/blame/res/baidu/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/intermediates/blame/res/baidu/debug/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/intermediates/blame/res/baidu/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/intermediates/blame/res/baidu/debug/multi-v2/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/intermediates/incremental/mergeBaiduDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/intermediates/incremental/mergeBaiduDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/intermediates/incremental/mergeBaiduDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/intermediates/incremental/mergeBaiduDebugResources/merged.dir/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/intermediates/incremental/mergeBaiduDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/intermediates/incremental/mergeBaiduDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/intermediates/processed_res/baiduDebug/processBaiduDebugResources/out/resources-baiduDebug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/intermediates/processed_res/baiduDebug/processBaiduDebugResources/out/resources-baiduDebug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/intermediates/res/merged/baidu/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/intermediates/res/merged/baidu/debug/values_values.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/intermediates/res/symbol-table-with-package/baidu/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/intermediates/res/symbol-table-with-package/baidu/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/example19/build/intermediates/symbols/baidu/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/example19/build/intermediates/symbols/baidu/debug/R.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/chapter05/example52/out/" />
@@ -231,51 +201,27 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter07/example19/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="270">
+              <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generated.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter07/example19/build/generated/res/resValues/baidu/debug/values/generated.xml">
+      <file leaf-file-name="BaseConfigImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/3.2.1/52b905a1ecd4cc0c7a2ac70bd3c9bef58d2fd31c/builder-3.2.1-sources.jar!/com/android/builder/internal/BaseConfigImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter07/example19/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter07/example19/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="173">
+              <caret line="201" column="16" selection-start-line="201" selection-start-column="16" selection-end-line="201" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter07/example19/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
+      <file leaf-file-name="CompileOptions.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.2.1/8730f18d0e7ac739324ea8a50c1e1ac2929a86f/gradle-3.2.1-sources.jar!/com/android/build/gradle/internal/CompileOptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="441">
+              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter07/example19/src/main/res/values/dimens.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state />
           </provider>
         </entry>
       </file>
@@ -10483,10 +10429,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="403" />
-    <option name="width" value="1918" />
-    <option name="height" value="1078" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="323" />
+    <option name="width" value="1534" />
+    <option name="height" value="862" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -10521,103 +10467,6 @@
               <item name="chapter07" type="462c0819:PsiDirectoryNode" />
               <item name="example19" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="example19" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="example19" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="example19" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="resValues" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="example19" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="resValues" type="462c0819:PsiDirectoryNode" />
-              <item name="baidu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="example19" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="resValues" type="462c0819:PsiDirectoryNode" />
-              <item name="baidu" type="462c0819:PsiDirectoryNode" />
-              <item name="debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="example19" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="resValues" type="462c0819:PsiDirectoryNode" />
-              <item name="baidu" type="462c0819:PsiDirectoryNode" />
-              <item name="debug" type="462c0819:PsiDirectoryNode" />
-              <item name="values" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="example19" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="example19" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="example19" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidGradleBookDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidGradleBookDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="example19" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="values" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -11003,7 +10852,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
@@ -11020,7 +10869,7 @@
       <window_info id="Captures" order="7" weight="0.25" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.496337" visible="true" weight="0.3150134" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.496337" visible="true" weight="0.25053304" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.51012146" />
       <window_info anchor="right" id="Gradle" order="8" sideWeight="0.46583852" weight="0.11247335" />
       <window_info anchor="right" id="Structure" order="10" sideWeight="0.5341615" side_tool="true" weight="0.21299255" />
@@ -11083,23 +10932,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter05/example11/version.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-4.6-all/bcst21l2brirad8k2ben1letg/gradle-4.6/src/plugins/org/gradle/api/tasks/SourceSetContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="imports" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-4.6-all/bcst21l2brirad8k2ben1letg/gradle-4.6/src/core-api/org/gradle/api/NamedDomainObjectContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1344">
@@ -11415,16 +11247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter07/example19/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter07/example19/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter07/example19/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
@@ -11435,22 +11257,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter07/example19/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter07/example19/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="37" />
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter07/example19/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter07/example19/build/generated/res/resValues/baidu/debug/values/generated.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state />
+        <state relative-caret-position="105">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/3.2.1/8730f18d0e7ac739324ea8a50c1e1ac2929a86f/gradle-3.2.1-sources.jar!/com/android/build/gradle/internal/CompileOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/3.2.1/52b905a1ecd4cc0c7a2ac70bd3c9bef58d2fd31c/builder-3.2.1-sources.jar!/com/android/builder/internal/BaseConfigImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="201" column="16" selection-start-line="201" selection-start-column="16" selection-end-line="201" selection-end-column="16" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter07/example19/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="270">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
         </state>
       </provider>
     </entry>

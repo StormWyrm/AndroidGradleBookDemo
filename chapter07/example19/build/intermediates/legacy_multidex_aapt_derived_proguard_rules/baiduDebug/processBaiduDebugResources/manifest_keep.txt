@@ -1,0 +1,2 @@
+# Referenced at D:\AndroidStudioFrame\AndroidGradleBookDemo\chapter07\example19\build\intermediates\merged_manifests\baiduDebug\processBaiduDebugManifest\merged\AndroidManifest.xml:11
+-keep class com.github.StormWyrm.AndroidGradleDemo2.MyApplication { <init>(...); }

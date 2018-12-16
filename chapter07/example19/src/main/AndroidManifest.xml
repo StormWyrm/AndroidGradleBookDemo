@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.github.StormWyrm.AndroidGradleDemo">
 
-    <application>
+    <application
+        android:name="com.github.StormWyrm.AndroidGradleDemo2.MyApplication">
         <activity
             android:name="com.github.StormWyrm.AndroidGradleDemo2.MainActivity"
             android:label="@string/title_activity_main"
