@@ -4,8 +4,21 @@ android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
 
+
     //配置多个productPlavor选项
+    flavorDimensions "default"
     productFlavors {
+        baidu{
+            manifestPlaceholders = ["UMENG_CHANNEL":"baidu"]
+
+        }
+        xiaomi{
+            manifestPlaceholders = ["UMENG_CHANNEL":"xiaomi"]
+        }
+        //如果我们的Product很多 可以通一配置
+        productFlavors.all{flavor->
+            manifestPlaceholders = ["UMENG_CHANNEL":name]
+        }
     }
 
     //默认的ProductFlavor配置
